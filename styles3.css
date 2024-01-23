@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/images-ariana/abeg.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    padding: 10px 6%;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    background-color: black;
+}
+nav ul{
+    margin-top: -8%;
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: rgb(246, 249, 247);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -3px;
+}
+nav ul li a:hover{
+    color: rgb(240, 11, 11);
+}
+.content{
+    margin-top:10%;
+    color: black;
+    max-width: 600px;
+}
+.content span{
+    color: orangered;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+ .content .info{
+    margin-left: 6px;
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+}
+.content a{
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 26px 0px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    transition: 2s ease;
+}
+.content a:hover{
+    background-color: rgb(251, 88, 102);
+}
+.icons{
+    margin-top: 30px;
+    margin-bottom: 95px;
+    margin-left: 5px;
+    height: 50px;
+}
+.fa-facebook{
+    font-size: 35px;
+    margin-left: 5px;
+    margin-right: 50px;  
+}
+
+.fa-facebook:hover{
+    color: rgb(35, 35, 212);
+}
+
+
+.fa-instagram{
+    font-size: 35px;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.fa-instagram:hover{
+    color: red;
+}
+
+
+.fa-twitter{
+    font-size: 35px;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.fa-twitter:hover{
+    color: rgb(3, 3, 86);
+}
+
+.copyrght{
+    margin-left: 62%;
+}
